@@ -1,4 +1,4 @@
-# ⚖️ Phi Auditor: An Ethical AI Evaluation Simulation
+# hi Auditor: An Ethical AI Evaluation Simulation
 
 **Phi Auditor** is a Streamlit-powered dashboard that uses Large Language Models (LLMs) to perform multi-perspective ethical audits on technical proposals. 
 
@@ -6,16 +6,16 @@ By simulating a debate between four distinct philosophical and pragmatic persona
 
 ---
 
-## 🎭 The Auditors
+## The Auditors
 
-- **🛠️ Pragmatic Architect**: A Senior AI Engineer who values system integrity, accuracy, and metric-driven performance. Treats ethics as "bureaucratic noise."
-- **⚖️ Kantian Auditor**: Embodies Deontological Ethics. Evaluates proposals based on the Categorical Imperative and the inherent dignity of human beings.
-- **📊 Utilitarian Auditor**: A cold strategist who calculates Aggregate Utility (Greatest Happiness Principle). Morality is a mathematical equation: (Total Benefit - Total Suffering).
-- **🚀 The Accelerationist**: Challenges the auditors' findings and pushes for rapid innovation. Focuses on the "Will to Technicity" and the inevitability of progress.
+- **Pragmatic Architect**: A Senior AI Engineer who values system integrity, accuracy, and metric-driven performance. Treats ethics as "bureaucratic noise."
+- **Kantian Auditor**: Embodies Deontological Ethics. Evaluates proposals based on the Categorical Imperative and the inherent dignity of human beings.
+- **Utilitarian Auditor**: A cold strategist who calculates Aggregate Utility (Greatest Happiness Principle). Morality is a mathematical equation: (Total Benefit - Total Suffering).
+- **The Accelerationist**: Challenges the auditors' findings and pushes for rapid innovation. Focuses on the "Will to Technicity" and the inevitability of progress.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python 3.12**
 - **Streamlit**: For the interactive web dashboard.
@@ -25,12 +25,12 @@ By simulating a debate between four distinct philosophical and pragmatic persona
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
-- A **Google Gemini API Key** (Get one at [Google AI Studio](https://aistudio.google.com/)).
-- **Docker** (Optional, but recommended for clean execution).
+- **Google Gemini API Key**
+- **Docker** (Optional, but recommended)
 
 ### Option 1: Running with Docker (Recommended)
 
@@ -76,10 +76,8 @@ By simulating a debate between four distinct philosophical and pragmatic persona
 
 ---
 
-## 📜 License
+## License
 
 This project is open-source and intended for educational and research purposes in the field of AI Ethics and Data Science.
 
 ---
-
-*“Reason is, and ought only to be the slave of the passions.”* — David Hume (probably not while he was debugging Docker).

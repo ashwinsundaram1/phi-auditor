@@ -13,8 +13,11 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the rest of the application code into the container
 COPY . .
 
+# Expose the port Streamlit runs on
+EXPOSE 8501
+
 # Environment variables (override these with -e GOOGLE_API_KEY=...)
 ENV GOOGLE_API_KEY=""
 
-# Run the application
-CMD ["python", "main.py"]
+# Run the Streamlit app
+ENTRYPOINT ["streamlit", "run", "main.py", "--server.port=8501", "--server.address=0.0.0.0"]
